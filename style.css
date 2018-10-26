@@ -1,0 +1,220 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*header li
+ {
+    display: inline;
+    position: relative;
+    float: right;
+}*/
+/*header {
+    background-color: dodgerblue;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    height: 6em;
+    transition: all 0.15s ease-in-out;
+    transition-property: all;
+    transition-duration: 0.15s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    left: 0;
+    margin-left: 0;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}*/
+/* *******
+***Menu***
+*/
+nav ul {
+  list-style: none;
+  float:right;
+}
+nav li {
+    display: inline;
+    padding-right: 25px;
+}
+nav {
+  position:fixed;
+  top:0;
+  width:100%;
+  height:100px;
+  background-color: rgb(17, 53, 88);
+  font-size: 35px;
+  font-family: 'Niramit',sans-serif;
+  color: black;}
+
+a:link {color: white;}
+a:visited {color: white;}
+a:hover {color: red;}
+a:active {color: red;}
+#logo {
+color:white;
+position: relative;
+padding: 25px;
+top: 20px;
+font-family:'mali',sans-serif;
+font-size: 50px;
+}
+#menu {
+  position:relative;
+}
+* {
+    box-sizing: border-box;
+}
+header h1{
+    font-size: 35px;
+    font-family:'Niramit',sans-serif;
+    padding: 30px;
+    margin: 0px;
+}
+.montitre{
+    position:left;
+    top:0%;
+    margin-left: 45px;
+    margin-right: 1000px;
+    text-align:top;
+
+}
+section{
+    min-height: 100vh;
+}
+#section1{
+    font-size: 30px;
+    font-family:'Niramit',sans-serif;
+
+
+}
+#section2{
+font-size: 50px;
+font-family:'Niramit',sans-serif;
+background-image:url("img/image\ route.jpeg");
+background-repeat: no-repeat;background-size: cover;
+}
+p
+{
+color: white; margin: 0px;padding-bottom:50px ;}
+h2, h3{
+padding-top: 25px;
+margin: 0px;
+}
+#section1 h2
+{
+padding-top: 85px;
+background-color: darkcyan;
+}
+#section1 h3{background-color:darkcyan; }
+#img-acceuil{
+height: 50vh;
+width: 100%;
+background-image: url("img/VOITURE\ NOIR\ 2.jpeg");
+background-repeat: no-repeat;background-size: cover;
+}
+#section1 li{
+    width: 20%;
+    display: inline-block;
+}
+#section1 li img{width: 200px;}
+
+#img-logo{
+    height: 30vh;
+    width: 100%;
+}
+#section2 h2
+{padding-top: 70px;
+text-align: center;
+color: white;
+}
+#section3 h2
+{padding-top: 70px;
+text-align: center;
+color:white;
+}
+#section3{
+    font-size: 50px;
+    font-family:'Niramit',sans-serif;
+    background-image:url("img/photo\ petite\ voiture.jpeg");
+    background-repeat: no-repeat;background-size: cover;
+    color: white;
+}
+    form{
+        /* Uniquement centrer le formulaire sur la page */
+        margin-left:auto;
+        margin-right: auto;
+        width: 80%;
+        /* Encadré pour voir les limites du formulaire */
+        padding: 1em;
+        border: 1px solid #CCC;
+        border-radius: 1em;
+      }
+
+      form div + div {
+        margin-top: 1em;
+      }
+
+      label {
+        /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
+        display: inline-block;
+        width: 30%;
+        text-align: right;
+      }
+
+      input, textarea {
+        /* Pour s'assurer que tous les champs texte ont la même police.
+           Par défaut, les textarea ont une police monospace */
+        font: 1em sans-serif;
+        color:white;
+        /* Pour que tous les champs texte aient la même dimension */
+        width: 50%;
+        box-sizing: border-box;
+
+        /* Pour harmoniser le look & feel des bordures des champs texte */
+        border: 1px solid #999;
+      }
+
+      input:focus, textarea:focus {
+        /* Pour souligner légèrement les éléments actifs */
+        border-color: #000;
+      }
+
+      textarea {
+        /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
+        vertical-align: top;
+
+        /* Pour donner assez de place pour écrire du texte */
+        height: 5em;
+      }
+
+      .button {
+        /* Pour placer le bouton à la même position que les champs texte */
+        padding-left: 90px; /* même taille que les étiquettes */
+      }
+
+      button {
+        /* Cette marge supplémentaire représente grosso modo le même espace que celui
+           entre les étiquettes et les champs texte */
+        margin-left: .5em;
+}
+footer{
+    position: absolute;
+    margin-bottom: 0;
+    width: 100%;
+    min-height: 200px;
+    background-color: rgb(17, 53, 88);
+}
+@media all and(max-width:600px)
+{
+  nav
+  {
+  position:fixed;
+  top:0;
+  width:100%;
+  height:100px;
+  background-color: rgb(17, 53, 88);
+  font-size: 35px;
+  font-family: 'Niramit',sans-serif;
+  color: black;}}
